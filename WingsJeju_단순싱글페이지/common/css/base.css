@@ -1,0 +1,67 @@
+@charset "utf-8";
+/*@import "font.css";*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,input,select,textarea,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+/*table, caption, tbody, tfoot, thead, tr, th, td,*/
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{	
+	padding:0px;
+	margin:0px;
+	vertical-align:top
+}
+html {overflow-y:auto;font-family:'Rajdhani','Noto Sans KR','맑은 고딕','Malgun Gothic','dotum';font-weight:400;text-align:center;color:#666;font-size:14px;line-height:1;letter-spacing:normal;word-break:keep-all}
+html, body {width:100%;-webkit-text-size-adjust:none;}
+body{position:relative;min-width:320px;overflow:hidden}
+ul, ol {list-style-type:none}
+h1,h2,h3,h4,h5,h6,th{font-weight:300}
+table{border-collapse:collapse;border-spacing:0}
+img,fieldset{border:0;outline:none}
+label {cursor:pointer}
+i, em, address {font-style:normal}
+caption,legend{visibility:hidden;width:0px;height:0px;font-size:0px;line-height:0px}
+
+/* html5 ie9 else */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+   display:block;
+   padding:0;
+   margin:0
+}
+
+strong{font-weight:400}
+
+input,select,textarea{font-family:'Rajdhani','Noto Sans KR','맑은 고딕','Malgun Gothic','dotum';font-weight:300;}
+textarea{resize:none;border:none;background:none}
+
+a {text-decoration:none;color:#666;cursor:pointer;}
+a:link, a:visited {text-decoration:none;color:#666;}
+a:hover, a:focus, a:active{background:none;text-decoration:none;}
+
+
+.letter{letter-spacing:normal !important}
+
+.under{text-decoration: underline !important}
+
+.f_100{font-weight:100}/* Thin */
+.f_300{font-weight:300}/* light */
+.f_400{font-weight:400}/* Reguler */
+.f_500{font-weight:500}/* Medium */
+.f_600{font-weight:600}/* Semi Bold */
+.f_700{font-weight:700}/* Bold */
+
+.color_01{color:#ff9426 !important}
+.color_02{color:#d24ba4 !important}
+.color_03{color:#42aba0 !important}
+.color_04{color:#d3924c !important}
+.color_05{color:#333 !important}
+
+.f_ko{font-family:'Noto Sans KR','맑은 고딕','Malgun Gothic','dotum' !important}
